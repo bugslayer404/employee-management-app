@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="new-contact.html">New Contact</a>
+    <a href="view-contacts.html">View Contacts</a>
+</nav>
+
+<div class="container">
+    <h2>Employee Contacts</h2>
+     <p>Below is a list of all employees in the system.</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td>john@email.com</td>
+            <td>0712345678</td>
+            <td>IT</td>
+            <td>
+                <button onclick="viewDetails()">Details</button>
+                <button onclick="editContact()">Edit</button>
+                <button onclick="deleteContact()">Delete</button>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+<script src="main.js"></script>
+<footer style="text-align:center; padding:15px; margin-top:20px; color:gray;">
+    © 2026 Employee Management System
+</footer>
+</body>
+</html>
