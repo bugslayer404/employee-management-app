@@ -12,3 +12,4 @@ function deleteContact() {
         alert("Deleted!");
     }
 }
+
